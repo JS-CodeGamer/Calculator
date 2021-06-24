@@ -1,3 +1,4 @@
+from tkinter import *
 def start():
     print('This is the canculator.')
     enter=input("Do you want to calculate?(y/n)").lower()
@@ -111,3 +112,5 @@ def calculator(res):
     return
 
 calculator(None)
+
+b1=Button()
